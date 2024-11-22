@@ -1,1 +1,60 @@
-/* Egen custom CSS här */
+body {
+    margin: 0;
+}
+
+
+.d-flex img {
+    object-fit:contain;
+}
+
+#list_div_1 div, #list_div_2 div {
+    max-width:155vw;
+}
+
+#list_div_1 div img, #list_div_2 div img {
+    width:100%
+}
+.homepage_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    max-height:20vh;
+    min-height: 15vh;
+}
+
+/*.homepage_header {
+    grid-area: h;
+}
+
+.homepage_nav {
+    grid-area: n;
+}
+
+.homepage_list_1 {
+    grid-area:d;
+}
+
+.homepage_list_2 {
+    grid-area:d2;
+}
+
+.homepage_footer {
+    grid-area: f;
+}
+
+
+.homepage_grid {
+    gap: 2px;
+    background-color: black;
+    display:grid;
+    height: 100vh;
+    grid-template-rows: 15vh 5vh 30vh 30vh;
+    grid-template-areas:
+    'h'
+    'n'
+    'd'
+    'd2'
+    'f' ;
+}
+
+*/
