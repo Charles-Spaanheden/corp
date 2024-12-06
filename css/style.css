@@ -2,24 +2,33 @@ body {
     margin: 0;
 }
 
+#canvas {
+    border: 2px solid black;
+}
 
 .d-flex img {
     object-fit:contain;
 }
 
 #list_div_1 div, #list_div_2 div {
-    max-width:155vw;
+    max-width:20vw;
 }
 
 #list_div_1 div img, #list_div_2 div img {
-    width:100%
+    width:100%;
 }
 .homepage_footer {
-    position: fixed;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
     max-height:20vh;
     min-height: 15vh;
+    
+}
+
+@media (max-width: 576px) {
+    #list_div_1 div, #list_div_2 div {
+        max-width:155vw;
+    } 
 }
 
 /*.homepage_header {
