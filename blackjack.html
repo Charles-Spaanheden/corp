@@ -11,18 +11,20 @@
         rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
         crossorigin="anonymous"
-      />
+        />
         <script>
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"
         </script>
+          <script src="bootstrap-5.3.3/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+          <link rel="stylesheet" href="scss/EWIcustom.scss">
     </head>
 
     <body>
-        <header class="homepage_header bg-primary p-4 justify-content-center m-0">BlackJack
+        <header class="d-flex homepage_header bg-primary p-4 justify-content-center m-0"><h1>BlackJack</h1>
         </header>
-        <nav class="navbar justify-content-center homepage_nav row p-3 m-0">nav
+        <nav class="navbar justify-content-center homepage_nav row p-4 m-0"><h3><a href="index.html" class="return">Return</a></h3>
         </nav>
         <h2>Dealer: <span id="dealer-sum"></span></h2>
         <div id="dealer-cards">
@@ -38,7 +40,7 @@
         <p id="results"></p>
         <a class="refresh" href="javascript:location.reload(true)">Refresh the game</a>
     </div>
-    <footer class="row homepage_footer bg-primary m-0 ">footer</footer>
+    <footer class="row homepage_footer bg-primary m-0 "></footer>
   </div>
     </body>
 </html>

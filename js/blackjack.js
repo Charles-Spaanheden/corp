@@ -82,7 +82,7 @@ function hit() {
     yourAceCount += checkAce(card);
     document.getElementById("your-cards").append(cardImg);
 
-    if (reduceAce(yourSum, yourAceCount) > 210) {
+    if (reduceAce(yourSum, yourAceCount) > 21) {
         canHit = false;
     }
 

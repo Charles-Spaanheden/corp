@@ -16,7 +16,33 @@ body {
 
 #list_div_1 div img, #list_div_2 div img {
     width:100%;
+    border: 3px solid black;
 }
+
+#list_div_1 div img:hover, #list_div_2 div img:hover {
+    border: 2px solid blue;
+ }
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+h3 {
+    text-align: center;
+}
+
+.wip {
+    
+}
+
+
+
 .homepage_footer {
     bottom: 0;
     width: 100%;
@@ -31,6 +57,59 @@ body {
     } 
 }
 
+#N {
+    animation: ntiplay 16s 1s ease infinite;
+    position: relative;
+  
+}
+
+#T {
+    animation: ntiplay 16s 2s ease infinite;
+    position: relative;
+    
+}
+
+#I {
+    animation: ntiplay 16s 3s ease infinite;
+    position: relative;
+
+}
+
+#dot {
+    animation: ntiplay 16s 4s ease infinite;
+    position: relative;
+   
+}
+
+#p {
+    animation: ntiplay 16s 5s ease infinite;
+    position: relative;
+    
+}
+
+#l {
+    animation: ntiplay 16s 6s ease infinite;
+    position: relative;
+}
+
+#a {
+    animation: ntiplay 16s 7s ease infinite;
+    position: relative;
+  
+}
+
+#y {
+    animation: ntiplay 16s 8s ease infinite;
+    position: relative;
+    
+}
+
+
+@keyframes ntiplay {
+    0% {transform: translate(0px, 0px);}
+    25% {transform: translate(0px, -200px);}
+    50% {transform: translate(0px, 0px);}
+}
 /*.homepage_header {
     grid-area: h;
 }
